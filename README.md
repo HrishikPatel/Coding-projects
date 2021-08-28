@@ -6,12 +6,15 @@ Each class has two files associated with it, class.cpp and class.h.
 
 Class Card
   Card class defines the properties of a card and provides the ability to print a card, extract its value (in Black Jack terms), and being able to 
-  set a card's value (private member for encapsulation purposes)
+  set a card's value (private member for encapsulation purposes).
+  
 Class Player
   Defines properties any player playing Black Jack may have, such as the ability to draw a card, their score, knowledge of whether they are busted or not, and the ability 
-  to change an Ace's value from 11 to 1 if needed
+  to change an Ace's value from 11 to 1 if needed.
+  
 Class Deck
-   Deck is defined as an array of 52 cards(Could also be implemented as a stack). That can be printed to screen, shuffled, or can deal a card from the deck
+   Deck is defined as an array of 52 cards(Could also be implemented as a stack). That can be printed to screen, shuffled, or can deal a card from the deck.
+   
 BlackJack.cpp
   Uses the three classes defines above to play Black Jack. The implementation of a dealer's turn and a player's turn are seperated as the rules differ for each. E.g if a dealer hits
   17 points or goes over (without busting) then they must stay, while a player has no such rule.
